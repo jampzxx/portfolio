@@ -155,3 +155,16 @@ scroll-margin-top: 100px;
   width: 50px;
   z-index: 2;
 }
+
+@media screen and (max-width:990px){
+  .skill-container{
+    grid-template-columns: repeat(2,1fr);
+    padding: 2rem 50px;
+  }
+}
+
+@media screen and (max-width:650px){
+  .skill-container{
+    grid-template-columns: 1fr;
+  }
+}
